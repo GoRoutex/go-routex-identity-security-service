@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: identity.security
+
+identity:
+  jwt:
+    secret: ${JWT_SECRET:CZZRadv0Xe8z3stWFWYdtiJ2E86gUgJvFEfbCYFgJhQ}
+    issuer: ${JWT_ISSUER:user-service}
+#    audience: ${JWT_AUDIENCE:management-service}
+#    authority-claim-name: ${JWT_CLAIM_NAME:roles}
+#    authority-prefix: ${JWT_AUTH_PREFIX:ROLE_}
