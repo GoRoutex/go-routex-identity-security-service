@@ -12,7 +12,7 @@
 
 	<groupId>vn.com.go.routex</groupId>
 	<artifactId>identity-security-spring-boot-starter</artifactId>
-	<version>0.0.3</version>
+	<version>0.0.4</version>
 	<packaging>jar</packaging>
 
 
